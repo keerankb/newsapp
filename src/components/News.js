@@ -90,7 +90,7 @@ export class News extends Component {
         
       <div>
         <div className="container my-4">
-          <h2 className="my-5 text-center">NewsMonkey - Top {this.capitalize(this.props.category)} Headlines</h2>
+          <h2 className="my-5 pt-5 text-center">NewsMonkey - Top {this.capitalize(this.props.category)} Headlines</h2>
           {/* {this.state.loading && <Spinner/>} */}
           <InfiniteScroll
             dataLength={this.state.articles.length}
